@@ -1,9 +1,12 @@
-package n1exercici2;
+package n2exercici1;
 
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		/*
+		 * Modifica l'exercici anterior de manera que un dels arguments del mètode genèric no sigui genèric.
+		 */
+
 
 		Persona personData = new Persona("WILSON", "LI", 18);
 		String ciudad = "London";
@@ -11,7 +14,7 @@ public class Main {
 
 		GenericMethods<Object> personDataSet = new GenericMethods<Object>();
 
-		personDataSet.setTresArgumentsMethod(personData, ciudad, distancia);
+		personDataSet.setTresArgumentsMethod(ciudad,personData, distancia);
 
 	}
 

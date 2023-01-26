@@ -1,8 +1,8 @@
-package n1exercici2;
+package n2exercici1;
 
 public class GenericMethods<T>  {
 	
-	private T first;
+	private String first;
 	private T second;
 	private T third;
 
@@ -12,7 +12,7 @@ public class GenericMethods<T>  {
 		third = null;
 	}
 	//GETTER&SETTERS	
-	public T getFirst() {
+	public String getFirst() {
 		return first;
 	}
 	
@@ -24,7 +24,7 @@ public class GenericMethods<T>  {
 		return third;
 	}
 
-	public void setFirst(T first) {
+	public void setFirst(String first) {
 		this.first = first;
 	}
 
@@ -38,7 +38,7 @@ public class GenericMethods<T>  {
 
 	//METHOD
 	
-	public void setTresArgumentsMethod(T firstParameter, T secondParameter,T thirdParameter) {
+	public void setTresArgumentsMethod(String firstParameter, T secondParameter,T thirdParameter) {
 		System.out.println(" un objecte de la classe "+firstParameter.getClass().getSimpleName() +",un "+ secondParameter.getClass().getSimpleName()+"  i un tipus  "+thirdParameter.getClass().getSimpleName());
 		}
 	
