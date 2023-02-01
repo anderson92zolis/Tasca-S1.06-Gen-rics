@@ -9,7 +9,10 @@ public class Main {
 		String ciudad = "London";
 		double distancia = 4444.2;
 
-		GenericMethods<Object> personDataSet = new GenericMethods<Object>();
+		//GenericMethods<Object> personDataSet = new GenericMethods<Object>();
+		
+		GenericMethods personDataSet= new GenericMethods(); //corrección, se intancia normal
+		
 
 		personDataSet.setTresArgumentsMethod(personData, ciudad, distancia);
 

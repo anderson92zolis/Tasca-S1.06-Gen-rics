@@ -10,9 +10,7 @@ public class Principal {
 		
 		Generica.methodGenericPhone(mySmartphone);
 		Generica.methodGenericSmartphone(mySmartphone);
-		
-		
-		
+			
 		
 	}
 

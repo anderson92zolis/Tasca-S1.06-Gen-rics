@@ -7,12 +7,12 @@ public class Main {
 		 * Modifica l'exercici anterior de manera que un dels arguments del mètode genèric no sigui genèric.
 		 */
 
-
-		Persona personData = new Persona("WILSON", "LI", 18);
+		
 		String ciudad = "London";
+		Persona personData = new Persona("WILSON", "LI", 18);
 		double distancia = 4444.2;
-
-		GenericMethods<Object> personDataSet = new GenericMethods<Object>();
+		
+		GenericMethods personDataSet = new GenericMethods(); //corrección, instanciamos normalmente
 
 		personDataSet.setTresArgumentsMethod(ciudad,personData, distancia);
 
